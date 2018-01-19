@@ -1,0 +1,512 @@
+{
+   "start" : 0,
+   "isLastPage" : true,
+   "size" : 12,
+   "values" : [
+      {
+         "links" : {
+            "clone" : [
+               {
+                  "href" : "",
+                  "name" : "http"
+               },
+               {
+                  "href" : "",
+                  "name" : "ssh"
+               }
+            ],
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ]
+         },
+         "project" : {
+            "public" : false,
+            "name" : "",
+            "id" : 228,
+            "key" : "CD",
+            "description" : "",
+            "type" : "NORMAL",
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            }
+         },
+         "forkable" : true,
+         "id" : 2584,
+         "statusMessage" : "Available",
+         "public" : false,
+         "name" : "",
+         "slug" : "",
+         "state" : "AVAILABLE",
+         "scmId" : "git"
+      },
+      {
+         "id" : 4882,
+         "name" : "",
+         "public" : false,
+         "statusMessage" : "Available",
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ],
+            "clone" : [
+               {
+                  "name" : "http",
+                  "href" : ""
+               },
+               {
+                  "href" : "",
+                  "name" : "ssh"
+               }
+            ]
+         },
+         "forkable" : true,
+         "project" : {
+            "name" : "",
+            "public" : false,
+            "id" : 228,
+            "type" : "NORMAL",
+            "description" : "",
+            "key" : "CD",
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            }
+         },
+         "state" : "AVAILABLE",
+         "scmId" : "git",
+         "slug" : ""
+      },
+      {
+         "links" : {
+            "clone" : [
+               {
+                  "href" : "",
+                  "name" : "http"
+               },
+               {
+                  "href" : "",
+                  "name" : "ssh"
+               }
+            ],
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ]
+         },
+         "forkable" : true,
+         "project" : {
+            "id" : 228,
+            "name" : "",
+            "public" : false,
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "description" : "",
+            "key" : "CD"
+         },
+         "id" : 4804,
+         "statusMessage" : "Available",
+         "public" : false,
+         "name" : "",
+         "slug" : "",
+         "state" : "AVAILABLE",
+         "scmId" : "git"
+      },
+      {
+         "project" : {
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "key" : "CD",
+            "description" : "",
+            "id" : 228,
+            "name" : "",
+            "public" : false
+         },
+         "forkable" : true,
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ],
+            "clone" : [
+               {
+                  "name" : "ssh",
+                  "href" : ""
+               },
+               {
+                  "name" : "http",
+                  "href" : ""
+               }
+            ]
+         },
+         "name" : "",
+         "statusMessage" : "Available",
+         "public" : false,
+         "id" : 4219,
+         "slug" : "",
+         "scmId" : "git",
+         "state" : "AVAILABLE"
+      },
+      {
+         "slug" : "",
+         "scmId" : "git",
+         "state" : "AVAILABLE",
+         "project" : {
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "key" : "CD",
+            "description" : "",
+            "type" : "NORMAL",
+            "id" : 228,
+            "public" : false,
+            "name" : ""
+         },
+         "forkable" : true,
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ],
+            "clone" : [
+               {
+                  "href" : "",
+                  "name" : "http"
+               },
+               {
+                  "name" : "ssh",
+                  "href" : ""
+               }
+            ]
+         },
+         "name" : "",
+         "public" : false,
+         "statusMessage" : "Available",
+         "id" : 4815
+      },
+      {
+         "id" : 4899,
+         "name" : "",
+         "public" : false,
+         "statusMessage" : "Available",
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ],
+            "clone" : [
+               {
+                  "name" : "ssh",
+                  "href" : ""
+               },
+               {
+                  "name" : "http",
+                  "href" : ""
+               }
+            ]
+         },
+         "forkable" : true,
+         "project" : {
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "key" : "CD",
+            "description" : "",
+            "id" : 228,
+            "name" : "",
+            "public" : false
+         },
+         "state" : "AVAILABLE",
+         "scmId" : "git",
+         "slug" : ""
+      },
+      {
+         "forkable" : true,
+         "project" : {
+            "id" : 228,
+            "public" : false,
+            "name" : "",
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "key" : "CD",
+            "description" : "",
+            "type" : "NORMAL"
+         },
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ],
+            "clone" : [
+               {
+                  "href" : "",
+                  "name" : "ssh"
+               },
+               {
+                  "name" : "http",
+                  "href" : ""
+               }
+            ]
+         },
+         "public" : false,
+         "statusMessage" : "Available",
+         "name" : "",
+         "id" : 1103,
+         "slug" : "",
+         "scmId" : "git",
+         "state" : "AVAILABLE"
+      },
+      {
+         "state" : "AVAILABLE",
+         "scmId" : "git",
+         "slug" : "",
+         "id" : 4036,
+         "statusMessage" : "Available",
+         "public" : false,
+         "name" : "",
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ],
+            "clone" : [
+               {
+                  "name" : "ssh",
+                  "href" : ""
+               },
+               {
+                  "href" : "",
+                  "name" : "http"
+               }
+            ]
+         },
+         "forkable" : true,
+         "project" : {
+            "id" : 228,
+            "name" : "",
+            "public" : false,
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "description" : "",
+            "key" : "CD"
+         }
+      },
+      {
+         "slug" : "",
+         "state" : "AVAILABLE",
+         "scmId" : "git",
+         "links" : {
+            "clone" : [
+               {
+                  "href" : "",
+                  "name" : "http"
+               },
+               {
+                  "name" : "ssh",
+                  "href" : ""
+               }
+            ],
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ]
+         },
+         "forkable" : true,
+         "project" : {
+            "id" : 228,
+            "name" : "",
+            "public" : false,
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "key" : "CD",
+            "description" : ""
+         },
+         "id" : 3482,
+         "statusMessage" : "Available",
+         "public" : false,
+         "name" : ""
+      },
+      {
+         "id" : 3082,
+         "public" : false,
+         "statusMessage" : "Available",
+         "name" : "",
+         "links" : {
+            "clone" : [
+               {
+                  "href" : "",
+                  "name" : "ssh"
+               },
+               {
+                  "href" : "",
+                  "name" : "http"
+               }
+            ],
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ]
+         },
+         "project" : {
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "description" : "",
+            "key" : "CD",
+            "id" : 228,
+            "name" : "",
+            "public" : false
+         },
+         "forkable" : true,
+         "state" : "AVAILABLE",
+         "scmId" : "git",
+         "slug" : ""
+      },
+      {
+         "scmId" : "git",
+         "state" : "AVAILABLE",
+         "slug" : "",
+         "name" : "",
+         "public" : false,
+         "statusMessage" : "Available",
+         "id" : 2524,
+         "project" : {
+            "id" : 228,
+            "name" : "",
+            "public" : false,
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "description" : "",
+            "key" : "CD"
+         },
+         "forkable" : true,
+         "links" : {
+            "clone" : [
+               {
+                  "name" : "http",
+                  "href" : ""
+               },
+               {
+                  "name" : "ssh",
+                  "href" : ""
+               }
+            ],
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ]
+         }
+      },
+      {
+         "id" : 3858,
+         "name" : "",
+         "statusMessage" : "Available",
+         "public" : false,
+         "links" : {
+            "clone" : [
+               {
+                  "name" : "ssh",
+                  "href" : ""
+               },
+               {
+                  "href" : "",
+                  "name" : "http"
+               }
+            ],
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ]
+         },
+         "forkable" : true,
+         "project" : {
+            "description" : "",
+            "key" : "CD",
+            "type" : "NORMAL",
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "public" : false,
+            "name" : "",
+            "id" : 228
+         },
+         "state" : "AVAILABLE",
+         "scmId" : "git",
+         "slug" : ""
+      }
+   ],
+   "limit" : 25
+}

@@ -1,0 +1,136 @@
+{
+   "closed" : false,
+   "author" : {
+      "approved" : false,
+      "user" : {
+         "displayName" : "Alex Kaupanin",
+         "slug" : "",
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ]
+         },
+         "name" : "",
+         "id" : 7362,
+         "active" : true,
+         "type" : "NORMAL",
+         "emailAddress" : ""
+      },
+      "status" : "UNAPPROVED",
+      "role" : "AUTHOR"
+   },
+   "title" : "Test PR",
+   "participants" : [],
+   "fromRef" : {
+      "repository" : {
+         "name" : "",
+         "public" : false,
+         "scmId" : "git",
+         "id" : 3858,
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ],
+            "clone" : [
+               {
+                  "href" : "",
+                  "name" : "ssh"
+               },
+               {
+                  "name" : "http",
+                  "href" : ""
+               }
+            ]
+         },
+         "state" : "AVAILABLE",
+         "forkable" : true,
+         "statusMessage" : "Available",
+         "slug" : "",
+         "project" : {
+            "key" : "CD",
+            "public" : false,
+            "id" : 228,
+            "name" : "",
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "description" : ""
+         }
+      },
+      "latestCommit" : "",
+      "displayId" : "branch_name",
+      "id" : "refs/heads/branch_name"
+   },
+   "state" : "OPEN",
+   "version" : 0,
+   "open" : true,
+   "createdDate" : 1519927276526,
+   "updatedDate" : 1519927276526,
+   "description" : "My description",
+   "reviewers" : [],
+   "toRef" : {
+      "repository" : {
+         "name" : "",
+         "id" : 3858,
+         "public" : false,
+         "scmId" : "git",
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ],
+            "clone" : [
+               {
+                  "href" : "",
+                  "name" : "ssh"
+               },
+               {
+                  "name" : "http",
+                  "href" : ""
+               }
+            ]
+         },
+         "statusMessage" : "Available",
+         "state" : "AVAILABLE",
+         "forkable" : true,
+         "slug" : "",
+         "project" : {
+            "description" : "",
+            "links" : {
+               "self" : [
+                  {
+                     "href" : ""
+                  }
+               ]
+            },
+            "type" : "NORMAL",
+            "name" : "",
+            "public" : false,
+            "id" : 228,
+            "key" : "CD"
+         }
+      },
+      "latestCommit" : "",
+      "displayId" : "master",
+      "id" : "refs/heads/master"
+   },
+   "id" : 13,
+   "locked" : false,
+   "links" : {
+      "self" : [
+         {
+            "href" : ""
+         }
+      ]
+   }
+}

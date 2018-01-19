@@ -1,0 +1,45 @@
+{
+   "committer" : {
+      "active" : true,
+      "type" : "NORMAL",
+      "name" : "akaupanin",
+      "links" : {
+         "self" : [
+            {
+               "href" : ""
+            }
+         ]
+      },
+      "id" : 7362,
+      "displayName" : "Alex Kaupanin",
+      "slug" : "",
+      "emailAddress" : ""
+   },
+   "author" : {
+      "slug" : "",
+      "displayName" : "Alex Kaupanin",
+      "emailAddress" : "",
+      "name" : "",
+      "links" : {
+         "self" : [
+            {
+               "href" : ""
+            }
+         ]
+      },
+      "id" : 7362,
+      "type" : "NORMAL",
+      "active" : true
+   },
+   "message" : "My commit message",
+   "authorTimestamp" : 1519924530000,
+   "displayId" : "",
+   "parents" : [
+      {
+         "displayId" : "",
+         "id" : ""
+      }
+   ],
+   "committerTimestamp" : 1519924530000,
+   "id" : ""
+}

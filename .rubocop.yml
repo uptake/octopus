@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  UseCache: false
+  Exclude:
+   - 'projects/**/*'
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  Max: 40
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/MethodLength:
+  Max: 45
+
+Metrics/AbcSize:
+  Max: 80
+
+Metrics/CyclomaticComplexity:
+  Max: 7
