@@ -1,0 +1,180 @@
+{
+   "start" : 0,
+   "size" : 1,
+   "limit" : 25,
+   "values" : [
+      {
+         "closed" : false,
+         "open" : true,
+         "toRef" : {
+            "latestCommit" : "",
+            "displayId" : "master",
+            "id" : "refs/heads/master",
+            "repository" : {
+               "scmId" : "git",
+               "id" : 4953,
+               "slug" : "",
+               "public" : false,
+               "forkable" : true,
+               "statusMessage" : "Available",
+               "links" : {
+                  "self" : [
+                     {
+                        "href" : ""
+                     }
+                  ],
+                  "clone" : [
+                     {
+                        "name" : "http",
+                        "href" : ""
+                     },
+                     {
+                        "href" : "",
+                        "name" : "ssh"
+                     }
+                  ]
+               },
+               "state" : "AVAILABLE",
+               "name" : "",
+               "project" : {
+                  "owner" : {
+                     "links" : {
+                        "self" : [
+                           {
+                              "href" : ""
+                           }
+                        ]
+                     },
+                     "emailAddress" : "",
+                     "name" : "akaupanin",
+                     "type" : "NORMAL",
+                     "active" : true,
+                     "displayName" : "Alex Kaupanin",
+                     "id" : 7362,
+                     "slug" : "akaupanin"
+                  },
+                  "name" : "Alex Kaupanin",
+                  "links" : {
+                     "self" : [
+                        {
+                           "href" : ""
+                        }
+                     ]
+                  },
+                  "key" : "~AKAUPANIN",
+                  "type" : "PERSONAL",
+                  "id" : 2552
+               }
+            }
+         },
+         "properties" : {
+            "openTaskCount" : 0,
+            "resolvedTaskCount" : 0,
+            "mergeResult" : {
+               "outcome" : "CLEAN",
+               "current" : true
+            }
+         },
+         "description" : ":octopus: This PR is created via automation by BAD team.",
+         "fromRef" : {
+            "id" : "refs/heads/octopus/refactor",
+            "repository" : {
+               "state" : "AVAILABLE",
+               "name" : "repo_001",
+               "statusMessage" : "Available",
+               "forkable" : true,
+               "links" : {
+                  "self" : [
+                     {
+                        "href" : ""
+                     }
+                  ],
+                  "clone" : [
+                     {
+                        "name" : "http",
+                        "href" : ""
+                     },
+                     {
+                        "href" : "",
+                        "name" : "ssh"
+                     }
+                  ]
+               },
+               "project" : {
+                  "key" : "~AKAUPANIN",
+                  "type" : "PERSONAL",
+                  "id" : 2552,
+                  "owner" : {
+                     "displayName" : "Alex Kaupanin",
+                     "active" : true,
+                     "slug" : "akaupanin",
+                     "id" : 7362,
+                     "name" : "akaupanin",
+                     "emailAddress" : "",
+                     "links" : {
+                        "self" : [
+                           {
+                              "href" : ""
+                           }
+                        ]
+                     },
+                     "type" : "NORMAL"
+                  },
+                  "name" : "Alex Kaupanin",
+                  "links" : {
+                     "self" : [
+                        {
+                           "href" : ""
+                        }
+                     ]
+                  }
+               },
+               "scmId" : "git",
+               "public" : false,
+               "slug" : "repo_001",
+               "id" : 4953
+            },
+            "displayId" : "octopus/refactor",
+            "latestCommit" : ""
+         },
+         "id" : 31,
+         "title" : "test",
+         "updatedDate" : 1519838585167,
+         "state" : "OPEN",
+         "version" : 0,
+         "links" : {
+            "self" : [
+               {
+                  "href" : ""
+               }
+            ]
+         },
+         "createdDate" : 1519838585167,
+         "participants" : [],
+         "author" : {
+            "status" : "UNAPPROVED",
+            "role" : "AUTHOR",
+            "user" : {
+               "slug" : "akaupanin",
+               "id" : 7362,
+               "displayName" : "Alex Kaupanin",
+               "active" : true,
+               "type" : "NORMAL",
+               "name" : "akaupanin",
+               "emailAddress" : "",
+               "links" : {
+                  "self" : [
+                     {
+                        "href" : ""
+                     }
+                  ]
+               }
+            },
+            "approved" : false
+         },
+         "reviewers" : [],
+         "locked" : false
+      }
+   ],
+   "isLastPage" : true
+}

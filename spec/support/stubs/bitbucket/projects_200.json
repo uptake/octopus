@@ -1,0 +1,383 @@
+{
+   "isLastPage" : false,
+   "start" : 0,
+   "values" : [
+      {
+         "public" : false,
+         "name" : "Alerts",
+         "type" : "NORMAL",
+         "id" : 152,
+         "description" : "Contains repos specific to alerts",
+         "key" : "ALERTS",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/ALERTS"
+               }
+            ]
+         }
+      },
+      {
+         "public" : false,
+         "name" : "Analysis and Reporting",
+         "type" : "NORMAL",
+         "key" : "AR",
+         "description" : "Contains Event Timeline, Report Generation, and Digital Workbench",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/AR"
+               }
+            ]
+         },
+         "id" : 196
+      },
+      {
+         "id" : 2589,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/ANALYTICS"
+               }
+            ]
+         },
+         "description" : "Common code used by the Analytics Platform.",
+         "key" : "ANALYTICS",
+         "type" : "NORMAL",
+         "name" : "Analytics Platform",
+         "public" : false
+      },
+      {
+         "type" : "NORMAL",
+         "name" : "API Gateway",
+         "public" : false,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/AG"
+               }
+            ]
+         },
+         "description" : "developer platform team",
+         "key" : "AG",
+         "id" : 2082
+      },
+      {
+         "key" : "APPSEC",
+         "description" : "Building application security related pieces.",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/APPSEC"
+               }
+            ]
+         },
+         "id" : 2507,
+         "public" : false,
+         "type" : "NORMAL",
+         "name" : "Application Security"
+      },
+      {
+         "name" : "Apps",
+         "type" : "NORMAL",
+         "public" : false,
+         "id" : 2224,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/APPS"
+               }
+            ]
+         },
+         "key" : "APPS",
+         "description" : "Services and applications to support registration, submission, approval, browsing, subscribing and launching apps in the wombat ecosystem"
+      },
+      {
+         "id" : 2883,
+         "key" : "ARCH",
+         "description" : "Home for projects under the Enterprise Architecture Group. For more information, see: https://wiki.wombat.com/display/EN/Enterprise+Architecture+Group",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/ARCH"
+               }
+            ]
+         },
+         "public" : false,
+         "type" : "NORMAL",
+         "name" : "Architecture"
+      },
+      {
+         "id" : 154,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/ASSETS"
+               }
+            ]
+         },
+         "key" : "ASSETS",
+         "description" : "All repositories related to assets",
+         "name" : "Assets",
+         "type" : "NORMAL",
+         "public" : false
+      },
+      {
+         "key" : "AUTH",
+         "description" : "Project containing repos related to Authentication/Authorization",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/AUTH"
+               }
+            ]
+         },
+         "id" : 2220,
+         "public" : false,
+         "type" : "NORMAL",
+         "name" : "Auth"
+      },
+      {
+         "type" : "NORMAL",
+         "name" : "Beyond wombat",
+         "public" : false,
+         "id" : 2265,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/BEYOND"
+               }
+            ]
+         },
+         "key" : "BEYOND",
+         "description" : "Projects supporting wombat.org initiatives"
+      },
+      {
+         "type" : "NORMAL",
+         "name" : "Build Language Toolkit",
+         "public" : false,
+         "id" : 302,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/BLT"
+               }
+            ]
+         },
+         "description" : "Application and shared build tooling for all software.",
+         "key" : "BLT"
+      },
+      {
+         "key" : "CLIENT",
+         "description" : "Management of clients, client specific customizations. (e.g. Client-management, EMD login screen)",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CLIENT"
+               }
+            ]
+         },
+         "id" : 142,
+         "public" : false,
+         "type" : "NORMAL",
+         "name" : "Client"
+      },
+      {
+         "name" : "CNH",
+         "type" : "NORMAL",
+         "public" : false,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CE"
+               }
+            ]
+         },
+         "key" : "CE",
+         "description" : "Proof of Model Tools",
+         "id" : 822
+      },
+      {
+         "id" : 2470,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CQ"
+               }
+            ]
+         },
+         "key" : "CQ",
+         "description" : "Repositories dealing with Code Quality at wombat.",
+         "type" : "NORMAL",
+         "name" : "Code Quality",
+         "public" : false
+      },
+      {
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CON"
+               }
+            ]
+         },
+         "description" : "The connectors team's solutions for left side client data capture.",
+         "key" : "CON",
+         "id" : 1382,
+         "name" : "Connectors",
+         "type" : "NORMAL",
+         "public" : false
+      },
+      {
+         "id" : 156,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CONTENT"
+               }
+            ]
+         },
+         "key" : "CONTENT",
+         "description" : "Dealing with user content (e.g. content management, file-upload, media services)",
+         "name" : "Content",
+         "type" : "NORMAL",
+         "public" : false
+      },
+      {
+         "key" : "CS",
+         "description" : "User Guide Content Source",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CS"
+               }
+            ]
+         },
+         "id" : 1502,
+         "public" : false,
+         "name" : "Content Strategy",
+         "type" : "NORMAL"
+      },
+      {
+         "id" : 228,
+         "key" : "CD",
+         "description" : "Continuous Integration, Continuous Delivery, and Developer tools.",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CD"
+               }
+            ]
+         },
+         "public" : false,
+         "type" : "NORMAL",
+         "name" : "Continuous Delivery"
+      },
+      {
+         "id" : 52,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CORE"
+               }
+            ]
+         },
+         "description" : "This project contains the repositories for backend core and front end core.",
+         "key" : "CORE",
+         "type" : "NORMAL",
+         "name" : "Core",
+         "public" : false
+      },
+      {
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/CUST"
+               }
+            ]
+         },
+         "description" : "Repositories specific to the end customer experience",
+         "key" : "CUST",
+         "id" : 301,
+         "name" : "Customer",
+         "type" : "NORMAL",
+         "public" : false
+      },
+      {
+         "id" : 1942,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/DAD"
+               }
+            ]
+         },
+         "description" : "Inhouse developed davice to be shipped as onprem solution to automatically manage VPN session to clients",
+         "key" : "DAD",
+         "type" : "NORMAL",
+         "name" : "Data Aquisition Device",
+         "public" : false
+      },
+      {
+         "description" : "Contains all repositories for all data connectors created for Symphony",
+         "key" : "DC",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/DC"
+               }
+            ]
+         },
+         "id" : 902,
+         "public" : false,
+         "type" : "NORMAL",
+         "name" : "Data Connectors"
+      },
+      {
+         "public" : false,
+         "name" : "Data Domains",
+         "type" : "NORMAL",
+         "id" : 2937,
+         "description" : "Miscellaneous projects owned by the Data Domains that span or don't fall neatly into one of the existing projects (Assets, Tasks, etc.)",
+         "key" : "DD",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/DD"
+               }
+            ]
+         }
+      },
+      {
+         "type" : "NORMAL",
+         "name" : "Data Engineering",
+         "public" : false,
+         "id" : 93,
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/DE"
+               }
+            ]
+         },
+         "key" : "DE",
+         "description" : "Tools and Services related to Data Ingestion and Management"
+      },
+      {
+         "id" : 561,
+         "key" : "DP",
+         "links" : {
+            "self" : [
+               {
+                  "href" : "https://git.wombat.com/projects/DP"
+               }
+            ]
+         },
+         "public" : false,
+         "type" : "NORMAL",
+         "name" : "Data Pipeline"
+      }
+   ],
+   "nextPageStart" : 25,
+   "limit" : 25,
+   "size" : 25
+}

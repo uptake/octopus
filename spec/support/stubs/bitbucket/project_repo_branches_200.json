@@ -1,0 +1,32 @@
+{
+   "isLastPage" : true,
+   "size" : 3,
+   "limit" : 25,
+   "values" : [
+      {
+         "latestChangeset" : "e9532e657d35f0b432fe344fc8ea2a93de09b789",
+         "displayId" : "master",
+         "latestCommit" : "e9532e657d35f0b432fe344fc8ea2a93de09b789",
+         "type" : "BRANCH",
+         "id" : "refs/heads/master",
+         "isDefault" : true
+      },
+      {
+         "isDefault" : false,
+         "id" : "refs/heads/feature/take-4",
+         "type" : "BRANCH",
+         "latestCommit" : "3629aea7218f37f6346372b2c1d69246b6e7736f",
+         "displayId" : "feature/take-4",
+         "latestChangeset" : "3629aea7218f37f6346372b2c1d69246b6e7736f"
+      },
+      {
+         "id" : "refs/heads/feature/take-3",
+         "isDefault" : false,
+         "latestChangeset" : "7247c5c2c21865f1644405aa1ab12b03e99c33c6",
+         "displayId" : "feature/take-3",
+         "latestCommit" : "7247c5c2c21865f1644405aa1ab12b03e99c33c6",
+         "type" : "BRANCH"
+      }
+   ],
+   "start" : 0
+}

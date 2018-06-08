@@ -1,0 +1,8 @@
+{
+   "latestCommit" : "e9532e657d35f0b432fe344fc8ea2a93de09b789",
+   "id" : "refs/heads/branch_name",
+   "latestChangeset" : "e9532e657d35f0b432fe344fc8ea2a93de09b789",
+   "isDefault" : false,
+   "displayId" : "branch_name",
+   "type" : "BRANCH"
+}
