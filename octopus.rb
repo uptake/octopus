@@ -3,6 +3,7 @@
 require 'byebug'
 require_relative 'lib/clients/bitbucket'
 require_relative 'lib/commands/fetch'
+require_relative 'lib/commands/report_default_branches'
 require_relative 'lib/commands/update'
 require_relative 'lib/options'
 require_relative 'lib/vcs/repository'
@@ -37,6 +38,8 @@ command = case options[:command]
           when Octopus::Options::COMMAND_UPDATE
             Octopus::Commands::Update.new(options[:files], options[:directory], vcs_client, options_parser.pr_options,
                                           options[:thread_count])
+          when Octopus::Options::COMMAND_DEFAULT_BRANCHES
+            Octopus::Commands::ReportDefaultBranches.new(vcs_client, options[:thread_count])
           end
 
 begin

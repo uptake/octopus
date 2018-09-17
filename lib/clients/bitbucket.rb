@@ -53,7 +53,7 @@ module Octopus
           user: username,
           password: password
 
-        JSON.parse(response.body)
+        response.code == 204 ? nil : JSON.parse(response.body)
       end
 
       def create_branch(name, project_key, repo_slug, start_point)
