@@ -6,6 +6,7 @@ module Octopus
   class Options
     COMMAND_FETCH = 'fetch'
     COMMAND_UPDATE = 'update'
+    COMMAND_DEFAULT_BRANCHES = 'report-default-branches'
     DEFAULT_SCM_PROVIDER = 'bitbucket'
     DEFAULT_THREAD_COUNT = 500
     FETCH_OPTIONS = %i[command directory files scm_url username password provider].freeze
@@ -36,6 +37,7 @@ module Octopus
                               .map { |k, _| [k, "Option is not set: --#{k}."] }]
       when COMMAND_UPDATE
         @errors = Hash[options.select { |_, v| v.nil? }.map { |k, _| [k, "Option is not set: --#{k}."] }]
+      when COMMAND_DEFAULT_BRANCHES
       else
         @errors << { command: "Unknown command. Must be one of the following: #{COMMAND_FETCH}, #{COMMAND_UPDATE}." }
       end

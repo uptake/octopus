@@ -36,7 +36,7 @@ module Octopus
                 path = "#{directory}/#{project_key}/#{repo_slug}"
                 puts "Downloading #{path}/#{filename}"
 
-                FileUtils.mkdir_p(path)
+                FileUtils.mkdir_p(File.dirname("#{path}/#{filename}"))
                 File.write("#{path}/#{filename}", file_content)
                 downloaded_count += 1
               end
