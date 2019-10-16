@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "web_url": "https://gitlab.example.com/groups/apple",
+    "name": "Apple",
+    "path": "apple",
+    "description": "Apple",
+    "visibility": "private",
+    "lfs_enabled": true,
+    "avatar_url": null,
+    "request_access_enabled": true,
+    "full_name": "Apple",
+    "full_path": "apple"
+  },
+  {
+    "id": 2,
+    "web_url": "https://gitlab.example.com/groups/banana",
+    "name": "Banana",
+    "path": "banana",
+    "description": "Banana",
+    "visibility": "private",
+    "lfs_enabled": true,
+    "avatar_url": null,
+    "request_access_enabled": true,
+    "full_name": "Banana",
+    "full_path": "banana"
+  },
+  {
+    "id": 3,
+    "web_url": "https://gitlab.example.com/groups/coconut",
+    "name": "Coconut",
+    "path": "coconut",
+    "description": "Coconut",
+    "visibility": "private",
+    "lfs_enabled": true,
+    "avatar_url": null,
+    "request_access_enabled": true,
+    "full_name": "Coconut",
+    "full_path": "coconut"
+  }
+]

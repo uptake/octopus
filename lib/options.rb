@@ -9,7 +9,7 @@ module Octopus
     DEFAULT_SCM_PROVIDER = 'bitbucket'
     DEFAULT_THREAD_COUNT = 500
     FETCH_OPTIONS = %i[command directory files url username password provider].freeze
-    SCM_PROVIDERS = %w[bitbucket].freeze
+    SCM_PROVIDERS = %w[bitbucket gitlab].freeze
 
     attr_reader :options, :errors
 
@@ -53,11 +53,11 @@ module Octopus
 
       parser.banner = 'Usage: ./octopus.rb [options]'
 
-      parser.on('-u', '--username=USERNAME', 'Bitbucket username.') do |u|
+      parser.on('-u', '--username=USERNAME', 'SCM provider username.') do |u|
         options[:username] = u
       end
 
-      parser.on('-p', '--password=PASSWORD', 'Bitbucket password.') do |p|
+      parser.on('-p', '--password=PASSWORD', 'SCM provider password.') do |p|
         options[:password] = p
       end
 
