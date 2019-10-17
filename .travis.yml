@@ -1,8 +1,7 @@
 language: ruby
 rvm:
   - 2.5.0
-  - ruby
-
-before_install:
-  - gem update --system
-  - gem install bundler
+before_script:
+  - gem install bundler -v '1.16.1'
+  - gem install rake
+script: rake
