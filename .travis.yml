@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - 2.5.0
 before_script:
-  - gem install bundler -v '1.16.1'
   - gem install rake
-script: rake
+  - bundle install
+script:
+  - bundle exec rspec spec
+  - bundle exec rake

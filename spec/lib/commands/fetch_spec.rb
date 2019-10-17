@@ -38,4 +38,3 @@ RSpec.describe Octopus::Commands::Fetch do
     end
   end
 end
-# rubocop:enable Metrics/BlockLength

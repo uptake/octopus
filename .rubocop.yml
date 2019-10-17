@@ -3,6 +3,7 @@ AllCops:
   UseCache: false
   Exclude:
    - 'projects/**/*'
+   - 'vendor/**/*'
 
 Documentation:
   Enabled: false

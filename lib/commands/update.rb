@@ -35,6 +35,7 @@ module Octopus
                 changeset[1].each do |filename|
                   operation = update_single_file(repository, project_key, repo_slug, filename)
                   next unless operation
+
                   feature_branch = operation[:feature_branch]
                   # Once at least one change is detected for a group of files under one repo, don't toggle the flag
                   changes_committed ||= operation[:changes_committed]
