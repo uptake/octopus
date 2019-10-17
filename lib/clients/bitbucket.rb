@@ -73,6 +73,7 @@ module Octopus
         result = branches(project_key, repo_slug, name).find { |b| b['displayId'] == name }
 
         return result unless result.nil?
+
         create_branch(name, project_key, repo_slug, start_point)
       end
 

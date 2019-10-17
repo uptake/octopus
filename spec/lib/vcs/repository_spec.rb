@@ -47,4 +47,3 @@ RSpec.describe Octopus::VCS::Repository do
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
