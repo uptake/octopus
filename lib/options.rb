@@ -5,11 +5,13 @@ require 'optparse'
 module Octopus
   class Options
     COMMAND_FETCH = 'fetch'
+    COMMAND_FIND_STALE = 'find_stale'
     COMMAND_UPDATE = 'update'
     COMMAND_DEFAULT_BRANCHES = 'report-default-branches'
     DEFAULT_SCM_PROVIDER = 'bitbucket'
     DEFAULT_THREAD_COUNT = 500
     FETCH_OPTIONS = %i[command directory files scm_url username password provider].freeze
+    FIND_STALE_OPTIONS = %i[command scm_url username password provider last_committed_date].freeze
     SCM_PROVIDERS = %w[bitbucket].freeze
 
     attr_reader :options, :errors
@@ -35,11 +37,14 @@ module Octopus
       when COMMAND_FETCH
         @errors = Hash[options.slice(*FETCH_OPTIONS).select { |_, v| v.nil? }
                               .map { |k, _| [k, "Option is not set: --#{k}."] }]
+      when COMMAND_FIND_STALE
+        @errors = Hash[options.slice(*FIND_STALE_OPTIONS).select { |_, v| v.nil? }
+                              .map { |k, _| [k, "Option is not set: --#{k}."] }]
       when COMMAND_UPDATE
         @errors = Hash[options.select { |_, v| v.nil? }.map { |k, _| [k, "Option is not set: --#{k}."] }]
       when COMMAND_DEFAULT_BRANCHES
       else
-        @errors << { command: "Unknown command. Must be one of the following: #{COMMAND_FETCH}, #{COMMAND_UPDATE}." }
+        @errors << { command: "Unknown command. Must be one of the following: #{COMMAND_FETCH}, #{COMMAND_FIND_STALE}, #{COMMAND_UPDATE}." }
       end
     end
 
@@ -103,6 +108,10 @@ module Octopus
 
       parser.on('--description=DESCRIPTION', 'Pull request descriptions.') do |d|
         options[:description] = d
+      end
+
+      parser.on('--last-committed-date=DATE', 'Last committed date in YYYY-MM-DD format.') do |date|
+        options[:last_committed_date] = date
       end
     end
   end
