@@ -25,7 +25,6 @@ module Octopus
 
       def file_content(filename, branch = default_branch)
         raise RestClient::NotFound if branch.nil?
-
         vcs_client.raw(project_key, repo_slug, filename, branch['latestCommit'])
       end
 
