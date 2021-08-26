@@ -32,9 +32,13 @@ module Octopus
         response.body
       end
 
-      # A stub to match the current interface
       def default_branch(org = nil, repo = nil)
-        { 'id' => 'master', 'latestCommit' => 'sha' }
+        url = "#{base_url}/repos/#{org}/#{repo}"
+        response = RestClient::Request.execute(method: :get, url: url, headers: { :Authorization => "token #{auth_token}" })
+        branch_name = JSON.parse(response.body)['default_branch']
+
+        # `latestCommit` is here to match the current interface that was originally used for Bitbucket fetch; in case of GitHub, this value is effectively ignored.
+        { 'id' => branch_name, 'latestCommit' => 'sha' }
       end
 
       def branches(org, repo, name)
