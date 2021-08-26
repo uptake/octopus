@@ -2,6 +2,7 @@
 
 require 'byebug'
 require_relative 'lib/clients/bitbucket'
+require_relative 'lib/clients/github'
 require_relative 'lib/commands/fetch'
 require_relative 'lib/commands/update'
 require_relative 'lib/options'
@@ -24,6 +25,8 @@ options = options_parser.options
 vcs_client = case options[:scm_provider].downcase
              when 'bitbucket'
                Octopus::Clients::Bitbucket.new(options[:base_url], options[:username], options[:password])
+             when 'github'
+               Octopus::Clients::GitHub.new(options[:base_url], options[:password])
              else
                puts "Unknown SCM provider #{options[:scm_provider]}. Available values are: " \
                  "#{Octopus::Options::SCM_PROVIDERS.join(', ')}."
@@ -33,7 +36,7 @@ vcs_client = case options[:scm_provider].downcase
 command = case options[:command]
           when Octopus::Options::COMMAND_FETCH
             Octopus::Commands::Fetch.new(options[:files], options[:directory], vcs_client, options[:thread_count],
-                                         options[:branch])
+                                         options[:branch], options[:projects])
           when Octopus::Options::COMMAND_UPDATE
             Octopus::Commands::Update.new(options[:files], options[:directory], vcs_client, options_parser.pr_options,
                                           options[:thread_count])

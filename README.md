@@ -52,6 +52,23 @@ ruby octopus.rb \
 --password=$BITBUCKET_PASSWORD
 ```
 
+An example for GitHub:
+
+```shell
+ruby octopus.rb \
+--command=fetch \
+--url=https://api.github.com \
+--scm-provider=github \
+--thread-count=100 \
+--username=akaupanin \
+--password=$GH_JENKINS_TOKEN \
+--files=Jenkinsfile \
+--directory=jenkinsfiles \
+--projects=uptake-devops,uptake-engineering
+```
+
+Note that you'll have to specify the list of organizatioins to parse (`--projects`), and need to use an API token in place of a password. `--username` can be anything because it's required due to current simplistic validation but it can be anything since auth happens via an API token.
+
 Once all files are downloaded, you can grep/sed them all you want. To open pull requests for all updated Jenkinsfiles and Dockerfiles:
 
 ```shell

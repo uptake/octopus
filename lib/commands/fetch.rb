@@ -5,14 +5,15 @@ require_relative '../clients/bitbucket'
 module Octopus
   module Commands
     class Fetch
-      attr_reader :directory, :files, :vcs_client, :branch_name, :thread_count
+      attr_reader :directory, :files, :vcs_client, :branch_name, :thread_count, :projects
 
-      def initialize(files, directory, vcs_client, thread_count, branch_name = nil)
+      def initialize(files, directory, vcs_client, thread_count, branch_name = nil, projects = [])
         @files = files
         @directory = directory
         @vcs_client = vcs_client
         @branch_name = branch_name
         @thread_count = thread_count
+        @projects = projects
       end
 
       def run
@@ -55,10 +56,16 @@ module Octopus
 
         @repos_list = []
 
-        vcs_client.projects.map do |project|
-          @repos_list << vcs_client.repos(project['key']).map { |repo| "#{project['key']}/#{repo['slug']}" }
+        projects_list.map do |project|
+          @repos_list << vcs_client.repos(project).map { |repo| "#{project}/#{repo['slug']}" }
         end
         @repos_list.flatten!
+      end
+
+      def projects_list
+        return @projects_list if @projects_list
+
+        @projects_list = @projects.any? ?  @projects : vcs_client.projects.map { |p| p['key'] }
       end
     end
   end

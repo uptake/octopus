@@ -9,7 +9,7 @@ module Octopus
     DEFAULT_SCM_PROVIDER = 'bitbucket'
     DEFAULT_THREAD_COUNT = 500
     FETCH_OPTIONS = %i[command directory files url username password provider].freeze
-    SCM_PROVIDERS = %w[bitbucket].freeze
+    SCM_PROVIDERS = %w[bitbucket github].freeze
 
     attr_reader :options, :errors
 
@@ -17,7 +17,8 @@ module Octopus
       @options = {
         username: nil, password: nil, command: nil, directory: nil, base_url: nil, files: '', message: nil,
         title: nil, branch: nil, description: nil, scm_provider: DEFAULT_SCM_PROVIDER,
-        thread_count: DEFAULT_THREAD_COUNT
+        thread_count: DEFAULT_THREAD_COUNT,
+        projects: []
       }
       @errors = []
       cli_options(default_argv).parse!
@@ -84,6 +85,10 @@ module Octopus
 
       parser.on('-f', '--files=FILENAME', 'A comma-separated list of files to fetch/update.') do |f|
         options[:files] = f.split(',').map(&:strip)
+      end
+
+      parser.on('--projects=PROJECTS', 'A comma-separated list of Bitbucket projects / GitHub organizatoins to process.') do |p|
+        options[:projects] = p.split(',').map(&:strip)
       end
 
       parser.on('-m', '--message=MESSAGE', 'Commit message.') do |m|
